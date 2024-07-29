@@ -1,10 +1,54 @@
-section{
-    background-color: black;
+@import url('https://fonts.google.com/specimen/Edu+AU+VIC+WA+NT+Hand');
+
+.section1{
+background-color: white;
 }
+
+.section1 {
+font-family: "edu-au-vic-wa-nt-hand-", cursive;
+color: red;
+text-align: center;
+border: 1px solid black;
+height: 180px;
+width: auto;
+margin: 0px;
+padding: 0px 30px;
+}
+
+/* display menu */
+ul {
+    display:flex;
+    width: 20%;
+    justify-content: space-between;
+    list-style: none; /*some os marcadores */
+    text-transform: uppercase; /*letras em maiusculo*/
+    position: absolute;
+    top: -05px;
+    left: 1400px;
+}
+
 h1 {
-    color: blue;
-    font-size: 40px;
-    margin: auto;
-    text-align: center;
-    padding: 40px;
+    font-size: 35px;
+    padding: -30%;
+    
+}
+
+h2 {
+    padding-top: -50%;
+}
+
+.section2{
+    border: 2px solid black;
+    height: 800px;
+    width: auto;
+    margin: 0% auto;
+    padding: 0 7px;
+}
+
+footer{
+    border: 2px solid black;
+    height: 100px;
+    width: auto;
+    margin: 0px auto;
+    padding: 0 7px;
 }
